@@ -1,0 +1,31 @@
+# This file was created Wed Aug  3 14:24:24 2022
+# Created by:
+#                       :-) GROMACS - gmx sasa, 2018.7 (-:
+# 
+# Executable:   /cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/gcc7.3/openmpi3.1/gromacs/2018.7/bin/gmx_mpi
+# Data prefix:  /cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/gcc7.3/openmpi3.1/gromacs/2018.7
+# Working dir:  /scratch/himani/DBSA/Pn180
+# Command line:
+#   gmx_mpi sasa -f md.xtc -s md.tpr -tv Pn180-DRG -b 90000 -dt 1000 -sf fil
+# gmx sasa is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "Volume and Density"
+@    xaxis  label "Time (ps)"
+@    yaxis  label ""
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Volume (nm\S3\N)"
+@ s1 legend "Density (g/l)"
+  90000.000   27.911 1017.946
+  91000.000   26.097 1088.723
+  92000.000   28.420  999.726
+  93000.000   30.284  938.199
+  94000.000   31.084  914.049
+  95000.000   37.320  761.315

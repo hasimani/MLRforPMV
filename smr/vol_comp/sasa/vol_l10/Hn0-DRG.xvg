@@ -1,0 +1,36 @@
+# This file was created Thu Aug 11 11:13:04 2022
+# Created by:
+#                       :-) GROMACS - gmx sasa, 2018.7 (-:
+# 
+# Executable:   /cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/gcc7.3/openmpi3.1/gromacs/2018.7/bin/gmx_mpi
+# Data prefix:  /cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/gcc7.3/openmpi3.1/gromacs/2018.7
+# Working dir:  /scratch/himani/parMolRmt/darash/hep0
+# Command line:
+#   gmx_mpi sasa -f mdtotal.xtc -s md1.tpr -tv Hn0-DRG -b 90000 -e 100000 -dt 1000
+# gmx sasa is part of G R O M A C S:
+#
+# GRoups of Organic Molecules in ACtion for Science
+#
+@    title "Volume and Density"
+@    xaxis  label "Time (ps)"
+@    yaxis  label ""
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Volume (nm\S3\N)"
+@ s1 legend "Density (g/l)"
+  90000.000   31.932  889.775
+  91000.000   32.800  866.237
+  92000.000   33.036  860.054
+  93000.000   33.107  858.186
+  94000.000   33.479  848.657
+  95000.000   31.983  888.349
+  96000.000   33.402  850.622
+  97000.000   33.199  855.828
+  98000.000   28.271 1004.985
+  99000.000   30.396  934.746
+ 100000.000   33.218  855.319

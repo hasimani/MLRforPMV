@@ -1,0 +1,36 @@
+# This file was created Wed Aug  3 14:23:51 2022
+# Created by:
+#                       :-) GROMACS - gmx sasa, 2018.7 (-:
+# 
+# Executable:   /cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/gcc7.3/openmpi3.1/gromacs/2018.7/bin/gmx_mpi
+# Data prefix:  /cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/gcc7.3/openmpi3.1/gromacs/2018.7
+# Working dir:  /scratch/himani/DBSA/Pn0
+# Command line:
+#   gmx_mpi sasa -f md.xtc -s md.tpr -tv Pn0-DRG -b 90000 -dt 1000 -sf fil
+# gmx sasa is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "Volume and Density"
+@    xaxis  label "Time (ps)"
+@    yaxis  label ""
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Volume (nm\S3\N)"
+@ s1 legend "Density (g/l)"
+  90000.000   30.728  924.655
+  91000.000   31.063  914.662
+  92000.000    8.049 3530.119
+  93000.000    9.200 3088.357
+  94000.000   18.198 1561.251
+  95000.000   22.234 1277.891
+  96000.000   31.452  903.343
+  97000.000   21.298 1334.028
+  98000.000   31.296  907.851
+  99000.000   31.224  909.949
+ 100000.000   31.509  901.726

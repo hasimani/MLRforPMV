@@ -1,0 +1,36 @@
+# This file was created Wed Aug  3 14:23:59 2022
+# Created by:
+#                       :-) GROMACS - gmx sasa, 2018.7 (-:
+# 
+# Executable:   /cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/gcc7.3/openmpi3.1/gromacs/2018.7/bin/gmx_mpi
+# Data prefix:  /cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/gcc7.3/openmpi3.1/gromacs/2018.7
+# Working dir:  /scratch/himani/DBSA/Pn0
+# Command line:
+#   gmx_mpi sasa -f md.xtc -s md.tpr -tv Pn0-DBSA -b 90000 -dt 1000 -sf fil
+# gmx sasa is part of G R O M A C S:
+#
+# GROtesk MACabre and Sinister
+#
+@    title "Volume and Density"
+@    xaxis  label "Time (ps)"
+@    yaxis  label ""
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Volume (nm\S3\N)"
+@ s1 legend "Density (g/l)"
+  90000.000  183.687 5491.777
+  91000.000  200.420 5033.274
+  92000.000  217.780 4632.060
+  93000.000  201.304 5011.174
+  94000.000  191.622 5264.373
+  95000.000  205.652 4905.219
+  96000.000  199.147 5065.457
+  97000.000  198.347 5085.870
+  98000.000  199.809 5048.667
+  99000.000  198.987 5069.517
+ 100000.000  191.153 5277.294

@@ -1,0 +1,36 @@
+# This file was created Wed Aug  3 14:24:17 2022
+# Created by:
+#                       :-) GROMACS - gmx sasa, 2018.7 (-:
+# 
+# Executable:   /cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/gcc7.3/openmpi3.1/gromacs/2018.7/bin/gmx_mpi
+# Data prefix:  /cvmfs/soft.computecanada.ca/easybuild/software/2017/avx2/MPI/gcc7.3/openmpi3.1/gromacs/2018.7
+# Working dir:  /scratch/himani/DBSA/Pn120
+# Command line:
+#   gmx_mpi sasa -f md.xtc -s md.tpr -tv Pn120-SOL -b 90000 -dt 1000 -sf fil
+# gmx sasa is part of G R O M A C S:
+#
+# Getting the Right Output Means no Artefacts in Calculating Stuff
+#
+@    title "Volume and Density"
+@    xaxis  label "Time (ps)"
+@    yaxis  label ""
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Volume (nm\S3\N)"
+@ s1 legend "Density (g/l)"
+  90000.000  151.532 6248.518
+  91000.000  120.383 7865.276
+  92000.000  131.163 7218.864
+  93000.000  151.998 6229.345
+  94000.000  130.284 7267.576
+  95000.000  158.800 5962.521
+  96000.000  181.702 5210.994
+  97000.000  155.361 6094.519
+  98000.000  166.574 5684.264
+  99000.000  180.564 5243.838
+ 100000.000  162.943 5810.936
